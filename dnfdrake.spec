@@ -2,13 +2,14 @@
 
 Summary:	A frontend for DNF
 Name:		dnfdrake
-Version:	4.1.5
+Version:	4.1.6
 Release:	1
 License:	GPLv3
 Group:		Graphical desktop/KDE
 URL:		https://mib.pianetalinux.org
 #URL:		https://github.com/astrgl/dnfdrake
-Source0:	https://github.com/astrgl/dnfdrake/archive/%{version}/%{name}-%{version}.tar.gz
+#Source0:	https://github.com/astrgl/dnfdrake/archive/%{version}/%{name}-%{version}.tar.gz
+Source:		%{name}-%{version}.tar.gz
 
 BuildRequires:	gambas-devel
 BuildRequires:	gambas-gb.dbus
